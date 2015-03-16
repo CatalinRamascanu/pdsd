@@ -1,6 +1,8 @@
 package com.example.lab_03;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -101,7 +103,9 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				text.setText("Gata, sef! Am sunat!");
+				Intent intent = new Intent(Intent.ACTION_CALL);
+				intent.setData(Uri.parse("tel:"+text.getText()));
+				startActivity(intent);
 				
 			}
 		});
@@ -110,7 +114,7 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				text.setText("");
+				finish();
 				
 			}
 		});
