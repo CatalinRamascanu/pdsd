@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../03-ClientServerCommunication/ClientServerCommunication.iml" filepath="$PROJECT_DIR$/../03-ClientServerCommunication/ClientServerCommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FTPServerWelcomeMessage.iml" filepath="$PROJECT_DIR$/FTPServerWelcomeMessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../02-SingleThreadedServer/SingleThreadedServer.iml" filepath="$PROJECT_DIR$/../02-SingleThreadedServer/SingleThreadedServer.iml" />
+    </modules>
+  </component>
+</project>
